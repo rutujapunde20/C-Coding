@@ -1,0 +1,24 @@
+/* C Program to print all even numbers between 1 to 100 using while */
+
+#include<stdio.h>
+int main()
+{
+	int i,n;
+	
+	
+	
+	scanf("%d",&n);
+	
+	
+		printf("All even numbers from 1 to 100 are : \n",n);
+		
+		i=2;
+		while(i<=n)
+		{
+			printf("%d\n",i);
+			i+=2;
+			
+		}
+	
+	return 0;
+}
