@@ -1,0 +1,24 @@
+/*write a c program to print all odd numbers between 1 to 100 using while loop*/
+
+#include<stdio.h>
+int main()
+{
+	int i, n,number;
+	number=1;
+	
+	printf("Enter the value of N:");
+	scanf("%d",&n);
+	
+	printf("Odd numbers from 1 to 100 are:\n",n);
+	
+	while(number<=n)
+	
+		{
+		
+		printf("%d",number);
+		number+=2;
+	    }
+		
+	
+	return 0;
+}
